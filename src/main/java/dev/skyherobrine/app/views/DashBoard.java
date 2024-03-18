@@ -12,6 +12,7 @@ public class DashBoard extends JFrame {
         tpDB.addTab("Caesar", new CaesarCipherPanel());
         tpDB.addTab("Monoalphabetic", new MonoalphabeticCipherPanel());
         tpDB.addTab("Vigenere", new VigenereCipherPanel());
+        tpDB.addTab("OneTimePad", new OneTimePadPanel());
 
         add(tpDB, BorderLayout.CENTER);
         setTitle("DashBoard");
