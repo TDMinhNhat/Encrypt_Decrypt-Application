@@ -13,8 +13,10 @@ public class DashBoard extends JFrame {
         tpDB.addTab("Monoalphabetic", new MonoalphabeticCipherPanel());
         tpDB.addTab("Vigenere", new VigenereCipherPanel());
         tpDB.addTab("OneTimePad", new OneTimePadPanel());
+        tpDB.addTab("RailFence", new RailFenceCipherPanel());
 
         add(tpDB, BorderLayout.CENTER);
+        setResizable(false);
         setTitle("DashBoard");
         setAlwaysOnTop(true);
         setLocationRelativeTo(null);
