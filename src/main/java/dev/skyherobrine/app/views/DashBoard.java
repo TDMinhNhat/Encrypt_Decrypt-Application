@@ -11,6 +11,7 @@ public class DashBoard extends JFrame {
         JTabbedPane tpDB = new JTabbedPane();
         tpDB.addTab("Caesar", new CaesarCipherPanel());
         tpDB.addTab("Monoalphabetic", new MonoalphabeticCipherPanel());
+        tpDB.addTab("Vigenere", new VigenereCipherPanel());
 
         add(tpDB, BorderLayout.CENTER);
         setTitle("DashBoard");
