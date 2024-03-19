@@ -11,6 +11,7 @@ public class DashBoard extends JFrame {
         JTabbedPane tpDB = new JTabbedPane();
         tpDB.addTab("Caesar", new CaesarCipherPanel());
         tpDB.addTab("Monoalphabetic", new MonoalphabeticCipherPanel());
+        tpDB.addTab("Playfair", new PlayfairCipherPanel());
         tpDB.addTab("Vigenere", new VigenereCipherPanel());
         tpDB.addTab("OneTimePad", new OneTimePadPanel());
         tpDB.addTab("RailFence", new RailFenceCipherPanel());
@@ -21,6 +22,6 @@ public class DashBoard extends JFrame {
         setAlwaysOnTop(true);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setSize(500, 400);
+        setSize(550, 400);
     }
 }
